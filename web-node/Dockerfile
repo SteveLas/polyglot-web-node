@@ -2,9 +2,9 @@ FROM node:argon
 
 WORKDIR /app
 
-ENV PORT 80
+ENV PORT 8080
 
-EXPOSE 80
+EXPOSE 8080
 
 ENTRYPOINT node server.js
 
